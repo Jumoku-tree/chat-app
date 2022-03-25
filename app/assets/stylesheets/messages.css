@@ -4,6 +4,18 @@
   height: 100vh;
 }
 
+.nav_edit{
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.nav_room{
+  color: #fafafa;
+  text-decoration: none;
+}
+
+/* 大枠 */
+
 .side_bar{
   width: 300px ;
   background-color: #253141;
@@ -14,17 +26,43 @@
   background-color: #ffffff;
 }
 
+/* 左側 */
+
 .side_top{
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side_name{
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.side_edit{
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .side_main{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
+
+.room_name{
+  color: white;
+  padding: 20px 20px 40px 20px;
+}
+
+/* 右側 */
 
 .main_top{
   height: 100px;
