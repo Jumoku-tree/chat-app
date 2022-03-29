@@ -94,6 +94,9 @@
 .message{
   padding-top: 10px;
   margin-bottom: 40px;
+}
+
+.m_top{
   display: flex;
 }
 
@@ -102,6 +105,7 @@
   color: #434a54;
   margin-bottom: 10px;
 }
+
 
 .m_text{
   font-size: 14px;
