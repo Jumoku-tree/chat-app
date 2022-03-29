@@ -1,0 +1,15 @@
+<div class="message">
+  <div class="m_left">
+    <div class="m_name">
+      <%= message.user.name %>
+    </div>
+    <div class="m_text">
+      <%= message.content %>
+    </div>
+  </div>
+  <div class="m_right">
+    <div class="date">
+      <%= l message.created_at %>
+    </div>
+  </div>
+</div>
